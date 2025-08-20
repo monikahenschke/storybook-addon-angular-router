@@ -20,10 +20,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-repro:build:production"
+              "buildTarget": "angular-repro:build:production"
             },
             "development": {
-              "browserTarget": "angular-repro:build:development"
+              "buildTarget": "angular-repro:build:development"
             }
           },
           "defaultConfiguration": "development"
