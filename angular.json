@@ -45,5 +45,8 @@
       }
     }
   },
-  "defaultProject": "angular-repro"
+  "defaultProject": "angular-repro",
+  "cli": {
+    "analytics": false
+  }
 }

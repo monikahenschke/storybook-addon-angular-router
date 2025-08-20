@@ -64,7 +64,7 @@
     "terser-webpack-plugin": "5.3.8",
     "ts-jest": "29.1.0",
     "typescript": "5.0.4",
-    "zone.js": "0.13.0"
+    "zone.js": "0.14.0"
   },
   "peerDependencies": {
     "@storybook/addon-actions": "^8.0.0",
