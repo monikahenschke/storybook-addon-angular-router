@@ -1,12 +1,12 @@
 import { ADDON_ID } from "../constants";
 
 const getAddons = async () => {
-  const _previewApi = await import("@storybook/preview-api");
+  const _previewApi = await import("storybook/preview-api");
   if (_previewApi.addons.register) {
     return _previewApi.addons;
   }
 
-  const _managerApi = await import("@storybook/manager-api");
+  const _managerApi = await import("storybook/manager-api");
   return _managerApi.addons;
 };
 
